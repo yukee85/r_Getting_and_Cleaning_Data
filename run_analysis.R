@@ -27,6 +27,10 @@ if(!file.exists(dataFolder)) {
         )
         unzip('dataFile.zip')
 }
+
+if(file.exists('dataFile.zip')){
+        file.remove('dataFile.zip')
+}
 ######################################################################        
 
 # Read the features variable
