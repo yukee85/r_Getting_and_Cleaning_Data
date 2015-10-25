@@ -123,4 +123,4 @@ by.type <- group_by(finalInfoMelt, subject, activity, variable)
 finalInfo2 <- summarise(by.type, meanValue = mean(value, na.rm=T))
 
 # write the tidy data sest to a file
-write.table(finalInfo2, file='finalTable.txt')
+write.table(finalInfo2, file='finalTable.txt',row.names = F)
