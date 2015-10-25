@@ -7,7 +7,7 @@ Repository for hte submission of the course project for the Getting and Cleaning
 Project utilizes the data from teh UCI Machine Learning Repository <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>.
 
 <h2> Script </h2>
-Script has being saved as run_analysis.R. The script is able to download and unzip the data into the working folder specified in the variable userFolder. This variable must be set to the folder where you would like to save the data and working data sets. 
+Script has being saved as run_analysis.R. The script is able to download and unzip the data into the working folder specified in the variable `userFolder`. This variable must be set to the folder where you would like to save the data and working data sets. 
 
 <h2>Project Instructions</h2>
 
